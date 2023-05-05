@@ -1,0 +1,28 @@
+npx create-react-app react-example --template typescript
+
+
+
+인터넷 게이트 웨이
+VPC
+
+
+ec2  노드건 뭐건 할려면 ssh 필요 
+vs code ssh 
+
+
+1.
+노드건 리액트건 띄울려면 ssh 접속이 일단 필요 
+그래야 hello world건 뭐건 띄우지 
+
+2. 프론트는 리액트로 
+   rds 연결은 노드로 할거임.
+https://www.youtube.com/watch?v=lzZ9KSGh6eI&t=61s
+
+
+rd my sql 쓸거 
+https://www.youtube.com/watch?v=zcb7q4jQ53o&list=PLbq5jHjpmq7r5vAA6_vf6Nuf-uGi_V3AZ&index=4
+
+코드를 윈도우에서 짜서 
+깃에 올리고 
+ec2로 클론  그리고 안에서 작동하게 세팅.
+
