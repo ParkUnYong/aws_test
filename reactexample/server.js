@@ -4,7 +4,10 @@ const path = require('path');
 const app = express();
 
 // 리액트 앱의 정적 파일 제공을 위해 build 폴더를 정적 디렉토리로 설정
-app.use(express.static(path.join(__dirname, 'reactexample', 'build')));
+// app.use(express.static(path.join(__dirname, 'reactexample', 'build')));
+
+app.use(express.static(path.join(__dirname,'build')));
+
 
 // 모든 요청에 대해 리액트 앱의 index.html 파일을 반환
 app.get('*', (req, res) => {
