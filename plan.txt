@@ -26,3 +26,4 @@ https://www.youtube.com/watch?v=zcb7q4jQ53o&list=PLbq5jHjpmq7r5vAA6_vf6Nuf-uGi_V
 깃에 올리고 
 ec2로 클론  그리고 안에서 작동하게 세팅.
 
+http://13.125.254.148:3000
